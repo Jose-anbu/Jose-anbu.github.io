@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Antonio Burgos</title>
     <meta name="author" content="José Antonio Burgos">
-    <meta name="" content="">
-    <meta name="" content="">
+    <meta name="description" content="Curriculum Vitae">
+    <meta name="keywords" content="curriculum, cv, vitae">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/867f1193c1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_QsPhGrQDOyU9IjYtA4IHQ");
+        })();
+    </script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Burgos José Antonio</a>
+                <a class="navbar-brand" href="#">Burgos, José Antonio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -28,13 +34,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobreMi">Sobre mi <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#sobreMi">Sobre mi<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#experienciaLaboral">Experiencia laboral</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#educacion">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -49,53 +58,48 @@
     </header>
     <section class="fondo text-center text-light py-4">
         <div class="container">
-            <img src="img/jose.png" alt="logo" class="avatar rounded">
-            <h3>Burgos José Antonio</h3>
+            <img src="img/jose.png" alt="Avatar de José" class="avatar mb-1 rounded-circle">
+            <h3>Burgos, José Antonio</h3>
             <p class="lead">Software developer</p>
         </div>
     </section>
-
     <section class="container">
         <h2 class="display-4 text-center my-4" id="sobreMi">Sobre mi</h2>
         <article class="shadow p-3 mb-5 bg-white rounded">
-            <h3 class="text-secondary">Información personal</h3>
-            <hr>
-            <p><strong>Edad:</strong> 35 años</p>
-            <p><strong>Email:</strong> jose_7892@hotmail.com</p>
-            <p><strong>Teléfono:</strong> +54 387 4135689</p>
-            <p><strong>Dirección:</strong> Avenida Mate de Luna 1425, San Miguel de Tucumán, Tucumán</p>
-            <hr>
-            <h3 class="text-secondary">Mi historia</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officiis nihil inventore vitae quam amet
-                magni sed repellendus asperiores excepturi saepe natus accusantium voluptate illum atque rerum fuga, at
-                ullam dolorem tenetur veritatis neque! Recusandae velit at exercitationem voluptatum saepe ipsa
-                asperiores possimus? Nemo possimus voluptatibus provident nostrum optio quia quis dicta, excepturi
-                laudantium accusantium dolore eaque illo tenetur facilis maiores beatae voluptatum enim ipsum iste ad
-                blanditiis. Blanditiis id debitis aliquid fuga magnam rem neque, unde voluptates ipsa perspiciatis
-                consequatur doloribus maxime, accusamus earum. Est, placeat? Accusamus repellendus quis ab dignissimos
-                molestiae libero vel vitae, amet placeat asperiores. Nisi?</p>
+            <h3 class="text-info">Información personal</h3>
+            <hr />
+            <p><b>Edad:</b> 34 años</p>
+            <p><b>Email:</b> jose_7892@hotmail.com</p>
+            <p><b>Teléfono:</b> +54 387 4135689</p>
+            <p><b>Dirección:</b> Avenida Mate de Luna 1425, San Miguel de Tucumán, Tucumán</p>
+            <hr />
+            <h3 class="text-info">Mi historia</h3>
+            <p class="text-justify">Mi nombre es José, nacido en la Provincia de Salta, decidí venir a Tucumán a
+                estudiar. Soy estudiante de 4° Año de Ingeniería Eléctrica en la Casa de Altos Estudios Universidad
+                Tecnológica Nacional - Facultad Regional Tucumán. Actualmente me desempeño como Ayudante judicial en
+                Poder Judicial de Tucumán. Me gusta caminar, el aire libre, viajar y la programación. Me considero una
+                persona que se apasiona por lo que le gusta y busca indagar más sobre el tema en cuestión.</p>
         </article>
         <h2 class="text-center display-4 my-4" id="experienciaLaboral">Experiencia laboral</h2>
         <article>
             <div class="card mb-3 shadow mb-5 bg-white rounded">
                 <div class="row no-gutters">
                     <div
-                        class="col-md-4 bg-secondary text-light align-items-center d-flex flex-column justify-content-center">
-                        <p class="lead">Fecha desde - fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
+                        class="col-md-4 fondo-cards text-light align-items-center d-flex flex-column justify-content-center">
+                        <p class="lead">2001 - 2004</p>
+                        <p class="lead">Empresa familiar</p>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Puesto de trabajo 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorem
-                                iste laudantium quasi ipsam adipisci, asperiores ullam quae et necessitatibus quidem
-                                dolore exercitationem odit tempora, pariatur cupiditate error dicta. Maiores.</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-danger">HTML</span>
-                                <span class="badge badge-danger">CSS3</span>
-                                <span class="badge badge-danger">SASS</span>
-                                <span class="badge badge-danger">MATERIAL</span>
-                                <span class="badge badge-danger">BOOTSTRAP</span></p>
+                            <h5 class="card-title">Ayudante en instalaciones eléctricas</h5>
+                            <p class="card-text text-justify">Tareas desarrolladas: conexión de artefactos varios,
+                                tirada de cableado, colocación de elementos de apertura y cierre de circuitos y
+                                manipulación de tableros eléctricos.</p>
+                            <p><b>Habilidades:</b>
+                                <span class="badge badge-primary">Responsabilidad</span>
+                                <span class="badge badge-primary">Eficiencia</span>
+                                <span class="badge badge-primary">Trabajo en equipo</span>
+                                <span class="badge badge-primary">Manejo de herramientas</span></p>
                         </div>
                     </div>
                 </div>
@@ -103,20 +107,22 @@
             <div class="card mb-3 shadow mb-5 bg-white rounded">
                 <div class="row no-gutters">
                     <div
-                        class="col-md-4 bg-secondary text-light align-items-center d-flex flex-column justify-content-center">
-                        <p class="lead">Fecha desde - fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
+                        class="col-md-4 fondo-cards text-light align-items-center d-flex flex-column justify-content-center">
+                        <p class="lead">2009 - 2018</p>
+                        <p class="lead">Empresa familiar</p>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Puesto de trabajo 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorem
-                                iste laudantium quasi ipsam adipisci, asperiores ullam quae et necessitatibus quidem
-                                dolore exercitationem odit tempora, pariatur cupiditate error dicta. Maiores.</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-danger">HTML</span>
-                                <span class="badge badge-danger">CSS3</span>
-                                <span class="badge badge-danger">BOOTSTRAP</span></p>
+                            <h5 class="card-title">Técnico en reparación de pc, con conocimiento en redes</h5>
+                            <p class="card-text text-justify">Tareas desarrolladas: limpieza interna de gabinetes,
+                                armado de pc, formateo e instalación de windows y programas varios. Configuración de
+                                modems, routers y extensores wifi.</p>
+                            <p><b>Habilidades:</b>
+                                <span class="badge badge-primary">Dedicación</span>
+                                <span class="badge badge-primary">Responsabilidad</span>
+                                <span class="badge badge-primary">Paciencia</span>
+                                <span class="badge badge-primary">Eficiencia</span>
+                                <span class="badge badge-primary">Manejo de software</span></p>
                         </div>
                     </div>
                 </div>
@@ -124,21 +130,45 @@
             <div class="card mb-3 shadow mb-5 bg-white rounded">
                 <div class="row no-gutters">
                     <div
-                        class="col-md-4 bg-secondary text-light align-items-center d-flex flex-column justify-content-center">
-                        <p class="lead">Fecha desde - fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
+                        class="col-md-4 fondo-cards text-light align-items-center d-flex flex-column justify-content-center">
+                        <p class="lead">2010 - 2018</p>
+                        <p class="lead">Teleperformance</p>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Puesto de trabajo 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorem
-                                iste laudantium quasi ipsam adipisci, asperiores ullam quae et necessitatibus quidem
-                                dolore exercitationem odit tempora, pariatur cupiditate error dicta. Maiores.</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-danger">HTML</span>
-                                <span class="badge badge-danger">CSS3</span>
-                                <span class="badge badge-danger">MATERIAL</span>
-                                <span class="badge badge-danger">BOOTSTRAP</span></p>
+                            <h5 class="card-title">Agente soporte técnico / comercial</h5>
+                            <p class="card-text text-justify">Tareas desarrolladas: brindar soporte técnico del producto
+                                (telefonía básica e internet). Asesoramiento en ventas y desarrollo de gestiones
+                                administrativas (facturación).</p>
+                            <p><b>Habilidades:</b>
+                                <span class="badge badge-primary">Conocimiento del producto</span>
+                                <span class="badge badge-primary">Eficiencia</span>
+                                <span class="badge badge-primary">Sondeo</span>
+                                <span class="badge badge-primary">Paciencia</span>
+                                <span class="badge badge-primary">Escucha activa</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 shadow mb-5 bg-white rounded">
+                <div class="row no-gutters">
+                    <div
+                        class="col-md-4 fondo-cards text-light align-items-center d-flex flex-column justify-content-center">
+                        <p class="lead">2018 - Actual</p>
+                        <p class="lead">Poder Judicial de Tucumán</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Ayudante judicial</h5>
+                            <p class="card-text text-justify">Tareas que se desarrollan: atención a profesionales y/o
+                                público en general. Manejo de expedientes, carga de escritos en sistema informático y
+                                manipulación de los mismos.</p>
+                            <p><b>Habilidades:</b>
+                                <span class="badge badge-primary">Trabajo en equipo</span>
+                                <span class="badge badge-primary">Buena presencia</span>
+                                <span class="badge badge-primary">Predisposición</span>
+                                <span class="badge badge-primary">Responsable</span>
+                                <span class="badge badge-primary">Buen trato</span></p>
                         </div>
                     </div>
                 </div>
@@ -149,144 +179,312 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <div class="card shadow mb-5 bg-white rounded">
-                        <div class="bg-secondary text-center">
-                            <p class="lead text-light mt-3">Fecha desde - fecha hasta</p>
-                            <p class="lead text-light">Institución</p>
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">1991 - 1998</p>
+                            <p class="lead">Colegio Salesiano "Angel Zerda"</p>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Curso o título</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <p><strong>Estado:</strong> completo</p>
+                            <h5 class="card-title text-center">Nivel Primario</h5>
+                            <p class="card-text text-justify">Ubicado en la Provincia de Salta - Capital. El último
+                                grado, es decir 7° grado, se cursó como nivel secundario en el mismo colegio.</p>
+                            <p><b>Estado:</b> completo</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="card shadow mb-5 bg-white rounded">
-                        <div class="bg-secondary text-center">
-                            <p class="lead text-light mt-3">Fecha desde - fecha hasta</p>
-                            <p class="lead text-light">Institución</p>
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">1999 - 2004</p>
+                            <p class="lead">E.E.T. N° 5138 "Alberto Einstein"</p>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Curso o título</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <p><strong>Estado:</strong> completo</p>
+                            <h5 class="card-title text-center">Nivel Secundario</h5>
+                            <p class="card-text text-justify">Ubicado en la Provincia de Salta - Capital. Recibido de la
+                                Escuela de Educación Técnica N° 5138 "Alberto Einstein" con orientación Técnico
+                                Electromecánico.</p>
+                            <p><b>Estado:</b> completo</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="card shadow mb-5 bg-white rounded">
-                        <div class="bg-secondary text-center">
-                            <p class="lead text-light mt-3">Fecha desde - fecha hasta</p>
-                            <p class="lead text-light">Institución</p>
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2005 - Actual</p>
+                            <p class="lead">U.T.N. - F.R.T.</p>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Curso o título</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <p><strong>Estado:</strong> completo</p>
+                            <h5 class="card-title text-center">Nivel Universitario</h5>
+                            <p class="card-text text-justify">Cursando 4° Año de la carrera de Ingeniería Eléctrica, en
+                                la casa de Altos Estudios Universidad Tecnológica Nacional - Facultad Regional Tucumán.
+                            </p>
+                            <p><b>Estado:</b> incompleto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2003</p>
+                            <p class="lead">OIEL S.R.L.</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Salta - Capital. Capacitación de Seguridad de personas e
+                                Instalaciones eléctricas, dictado por Ing. Jorge Lloveras (Plasnavi).</p>
+                            <p><b>Estado:</b> completo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2007</p>
+                            <p class="lead">U.T.N. - F.R.T.</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Participación de Conferencia Schneider Electric,
+                                organizada por los Departamentos Electrotecnia y Electrónica.</p>
+                            <p><b>Estado:</b> completo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2008</p>
+                            <p class="lead">Hotel Carlos V</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Curso de actualización profesional "Domótica y edificios
+                                inteligentes", dictado por Ms. Arq. Javier Karacinque.</p>
+                            <p><b>Estado:</b> completo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2009</p>
+                            <p class="lead">Red Millenium - IAC</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Curso de Armado y Reparación de PC.</p>
+                            <p><b>Estado:</b> completo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2010</p>
+                            <p class="lead">Universidad Nacional Tucumán</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Configuración de Redes Wifi, dictado por Ing. Luis Alberto
+                                Ortiz.</p>
+                            <p><b>Estado:</b> completo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card shadow mb-5 bg-white rounded">
+                        <div class="fondo-cards text-light text-center">
+                            <p class="lead mt-3">2010</p>
+                            <p class="lead">Red Millenium - IAC</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Capacitación</h5>
+                            <p class="card-text text-justify">Curso de Montaje y Administración de Redes.</p>
+                            <p><b>Estado:</b> completo</p>
                         </div>
                     </div>
                 </div>
             </div>
         </article>
         <h2 class="display-4 text-center my-4" id="habilidades">Habilidades</h2>
-        <article class="mb-5 p-3 shadow bg-white rounded">
+        <article class="shadow mb-5 p-3 bg-white rounded">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <h3>Front-end</h3>
-                    <hr>
+                    <h3>Front-End</h3>
+                    <hr />
                     <p>HTML</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 97%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" id="progress-html"
+                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
                     <p>CSS</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" id="progress-css"
+                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
                     <p>Bootstrap</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                            id="progress-bootstrap" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
-                    <p>Git</p>
+                    <p>Scrum</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 0%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" id="progress-scrum"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <p>Github</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" id="progress-github"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <h3>Back-End</h3>
-                    <hr>
+                    <hr />
                     <p>Node</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 0%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" id="progress-node"
+                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
                     </div>
                     <p>Express</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 0%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                            id="progress-express" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
                     </div>
                     <p>MongoDB</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 0%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p>Scrum</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 0%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                            id="progress-mongodb" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
                     </div>
                 </div>
             </div>
-            <h3></h3>
         </article>
         <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
-        <article class="mb-5 p-3 shadow bg-white rounded">
-            <p>Agregar aquí galería</p>
+        <article class="shadow mb-5 p-3 bg-white rounded">
+            <a href="https://panaderia.netlify.app/" target="_blank" class="lead text-decoration-none">Panadería</a>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 my-3 d-flex align-items-center">
+                    <img src="img/Panaderia/01-Principal.png" alt="Slider principal" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3 d-flex align-items-center">
+                    <img src="img/Panaderia/02-Principal.png" alt="Principal nosotros" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3 d-flex align-items-center">
+                    <img src="img/Panaderia/03-Principal.png" alt="Probá" class="w-100">
+                </div>
+            </div>
+            <a href="https://n24.netlify.app/" target="_blank" class="lead text-decoration-none">Blog de noticias</a>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/01-Principal.png" alt="Slider principal" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/02-Principal.png" alt="Entradas principales" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/03-Iniciar-sesion.png" alt="Iniciar sesión" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/04-Categorias-galeria.png" alt="Catergoría de galería" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/05-Entrada-de-blog.png" alt="Entrada de blog" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <img src="img/Blog de noticias/06-Comentarios.png" alt="Comentarios" class="w-100">
+                </div>
+            </div>
         </article>
         <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
-        <hr/>
-        <article class="row my-4">
-            <div class="col-sm-12 col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.376226908441!2d-65.2212017854026!3d-26.827983483164136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c6bc740b355%3A0x3b9e8bef83f6b17!2sAv.%20Mate%20de%20Luna%201425%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1588617875537!5m2!1ses-419!2sar" class="w-100" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            <div class="col-sm-12 col-md-6 bg-light rounded p-4 mb-5 shadow">
-                <form class="py-2">
-                    <h4 class="mb-3">Deja tus datos y en breve nos contactaremos con vos</h4>
-                    <div class="form-group">
-                        <label>Nombre</label>
-                        <input type="text" name="name" id="" placeholder="Juan" required class="form-control">
+        <article class="shadow mb-5 p-3 bg-white rounded">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="lead">Te dejo diferentes formas para que puedas contactarme:</p>
+                    <ul class="list-unstyled ml-5 my-4">
+                        <li><i class="fab fa-whatsapp text-success mr-1 mb-3"></i><i
+                                class="fas fa-phone-square text-info mr-2"></i><a href="https://wa.me/543874135689"
+                                target="_blank">387 4135689</a></li>
+                        <li><i class="fas fa-envelope text-danger mr-2 mb-3"></i><a
+                                href="mailto:jose_7892@hotmail.com?Subject=Quiero%20contactarme%20con%20vos">jose_7892@hotmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.376226908441!2d-65.2212017854026!3d-26.827983483164136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c6bc740b355%3A0x3b9e8bef83f6b17!2sAv.%20Mate%20de%20Luna%201425%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1589336178383!5m2!1ses-419!2sar"
+                            height="375" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0" class="w-75 rounded"></iframe>
                     </div>
-                    <div class="form-group">
-                        <label>Apellido</label>
-                        <input type="text" name="" id="" placeholder="Perez" required class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" name="" id="" placeholder="juanperez@mail.com" required class="form-control">
-                    </div>
-                    <div class="text-right">
-                        <button type="submit" class="btn btn-primary my-2">Enviar</button>
-                    </div>
-                </form>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="lead">O deja tus datos y me contactaré contigo, en breve:</p>
+                    <form class="px-4 py-3 bg-light rounded my-4" onsubmit="validarGeneral(event)" id="formCurriculum">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input type="text" class="form-control" placeholder="Juan" onkeypress="campoRequerido(this)" onblur="campoRequerido(this)" required
+                                id="nombre">
+                            <div class="valid-feedback">
+                                Correcto
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, completa el campo. Solo letras.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Apellido</label>
+                            <input type="text" class="form-control" placeholder="Perez" onkeypress="campoRequerido(this)" onblur="campoRequerido(this)" required
+                                id="apellido">
+                            <div class="valid-feedback">
+                                Correcto
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, completa el campo. Solo letras.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="juanperez@mail.com" onkeypress="validarMail(this)" required
+                                onblur="validarMail(this)" id="email">
+                            <div class="valid-feedback">
+                                Correcto
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, completa el campo.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Detalle el motivo del contacto <span class="text-muted small">(Al menos 10
+                                    caracteres)</span></label>
+                            <textarea type="text" class="form-control" placeholder="Motivo..." rows="3" onkeypress="validarConsulta(this)" 
+                                onblur="validarConsulta(this)" id="consulta" required></textarea>
+                            <div class="valid-feedback">
+                                Correcto
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, completa el campo correctamente.
+                            </div>
+                        </div>
+                        <div class="text-right mt-4">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                        <div class="alert alert-danger d-none mt-4" role="alert" id="alerta">
+                            Por favor, completa todos los campos antes de enviar!
+                        </div>
+                    </form>
+                </div>
             </div>
         </article>
     </section>
-
     <footer class="bg-dark text-light py-4">
         <div class="container text-center">
-            <i class="fab fa-linkedin fa-2x mr-2"></i> <!-- AGREGAR ETIQUETA a EN LINKEDIN Y GITHUB -->
-            <i class="fab fa-github-square fa-2x"></i>
-            <p class="lead mt-3">Burgos José Antonio</p>
+            <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-burgos-66a8001a9/" target="_blank">
+                <i class="fab fa-linkedin fa-2x mr-2 text-light"></i>
+            </a>
+            <a href="https://github.com/Jose-anbu/Jose-anbu.github.io" target="_blank">
+                <i class="fab fa-github-square fa-2x text-light"></i>
+            </a>
+            <p class="lead mt-3">Burgos, José Antonio</p>
             <p>&copy; Todos los derechos reservados</p>
         </div>
     </footer>
-    <!-- SCRIPT BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -296,6 +494,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="js/eventos.js"></script>
 </body>
 
 </html>

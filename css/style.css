@@ -1,14 +1,33 @@
 .fondo{
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,52,89,1) 0%, rgba(0,168,232,1) 90% );
 }
 
 .avatar{
     width: 100px;
-    height: 70px;
 }
 
-/* PARA SCROLLEAR SUAVE */
+.fondo-cards{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,149,218,0.85) 9.9%, rgba(56,80,114,1) 100.3% );
+}
+
 html{
     scroll-behavior: smooth;
+}
+
+#progress-html{
+    width: 95%;
+}
+
+#progress-css{
+    width: 90%;
+}
+
+#progress-bootstrap{
+    width: 90%;
+}
+#progress-scrum{
+    width: 80%;
+}
+#progress-github{
+    width: 80%;
 }
